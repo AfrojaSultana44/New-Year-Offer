@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/* font-family: "Inter", sans-serif; */
+
 * {
   margin: 0;
   padding: 0;
@@ -23,16 +26,11 @@ body {
 /* header styles */
 .header {
   padding-top: 50px;
- 
 }
 
 .banner {
-  background-image: linear-gradient(
-      180deg,
-      rgb(7, 2, 17) 0%,
-      rgba(7, 2, 17, 0) 100%
-    ),
-    url("../images/Banner\ Image.png");
+  background-image: url("../images/Banner\ Image.png");
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 16px;
   background-repeat: no-repeat;
   background-position: center;
@@ -40,6 +38,7 @@ body {
   height: 600px;
   width: 100%;
   margin-bottom: 120px;
+  background-blend-mode: overlay;
 }
 
 .banner-content {
@@ -64,7 +63,7 @@ body {
 /* hero section styles */
 .hero {
   margin-bottom: 120px;
-
+  font-family: "Inter", sans-serif;
 }
 
 .hero-title {
@@ -94,12 +93,8 @@ body {
 }
 
 .hero-banner {
-  background-image: linear-gradient(
-      180deg,
-      rgb(7, 2, 17) 0%,
-      rgba(7, 2, 17, 0) 100%
-    ),
-    url("../images/Vectorrr.png");
+  background-image: url("../images/Vectorrr.png");
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 16px;
   background-repeat: no-repeat;
   background-position: center;
@@ -107,6 +102,7 @@ body {
   height: 600px;
   width: 100%;
   margin-bottom: 120px;
+  background-blend-mode: overlay;
 }
 
 .hero-banner-content {
@@ -128,6 +124,7 @@ body {
 }
 
 .hero-banner-description {
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   color: #ffffff;
   opacity: 80%;
@@ -135,17 +132,26 @@ body {
   padding-bottom: 48px;
 }
 
-.hero-text {
+.hero-banner-btn {
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 20px;
   color: #ffffff;
 }
 
+/* address section styles */
+
 .address {
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
   height: 482px;
-  background-color: lightpink;
   margin-bottom: 120px;
   border-radius: 16px;
+  font-family: "Inter", sans-serif;
 }
 
 .address-content {
@@ -156,6 +162,7 @@ body {
 }
 
 .address-description {
+  font-weight: 600;
   font-size: 32px;
   color: #070211;
   line-height: 56px;
@@ -174,3 +181,70 @@ body {
   border: none;
   border-radius: 8px;
 }
+
+/* holiday sales section styles */
+.holiday-section-container {
+  width: 100%;
+  height: 986.07px;
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.holiday-text-container {
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.holiday-text-container h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.holiday-text-container h1 {
+  color: rgb(7, 2, 17);
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+
+.holiday {
+  color: rgb(255, 0, 0);
+}
+
+.holiday-text-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 64px;
+}
+
+.solid-color {
+  position: absolute;
+  width: 100%;
+  height: 229px;
+  border-radius: 16px 0px 16px 16px;
+  background: rgb(255, 0, 0);
+  top: 77%;
+}
+
+.giftbox {
+  /* width: 674.82px;
+  height: 577.96px; */
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 
+.discount-img{
+position: absolute;
+bottom: 30%;
+left: 55%;
+} */
