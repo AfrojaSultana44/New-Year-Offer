@@ -216,15 +216,24 @@ body {
 }
 
 .offer-first-side {
-  width: 33.33%;
+  width: 30%;
 }
 
 .offer-middle-side {
-  width: 33.33%;
+  width: 30%;
+}
+
+.offer-middle-side img {
+  width: 100%;
+  height: auto;
+  border: 15px solid red;
+  border-radius: 50%;
+  padding: 25px;
+
 }
 
 .offer-last-side {
-  width: 33.33%;
+  width: 30%;
 }
 
 .offer-last-side h4 {
